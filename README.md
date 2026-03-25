@@ -1,4 +1,4 @@
-# irt-hpo-transfer
+# irt-hyperparameter-transfer
 
 This repository provides the implementation and data for the paper:
 
