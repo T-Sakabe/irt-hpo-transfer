@@ -12,7 +12,7 @@ This work proposes a transfer-based HPO method using **Item Response Theory (IRT
 - the **latent ability of hyperparameter configurations**, and  
 - the **characteristics of datasets**
 
-This enables efficient hyperparameter transfer with only a small number of evaluations on the target dataset.
+This enables efficient hyperparameter transfer with only a small number of evaluations on the target dataset.  
 This repository provides code and data for offline transfer-based HPO experiments.
 
 <p align="center">
