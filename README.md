@@ -9,7 +9,7 @@ This repository provides the implementation and data for the paper:
 Hyperparameter optimization (HPO) is computationally expensive, especially when performed independently for each dataset.  
 This work proposes a transfer-based HPO method using **Item Response Theory (IRT)**, which separates:
 
-- the **latent capability of hyperparameter configurations**, and  
+- the **latent ability of hyperparameter configurations**, and  
 - the **characteristics of datasets**
 
 This enables efficient hyperparameter transfer with only a small number of evaluations on the target dataset.
