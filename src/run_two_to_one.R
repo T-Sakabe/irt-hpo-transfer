@@ -7,12 +7,12 @@ library(MASS)
 # 1. Load data
 #-----------------------------------------
 # Set the paths according to the transfer setting
-path_A_1 <- "data/CIFAR10_binary_results.csv"
-path_A_2 <- "data/QuickDraw_binary_results.csv"
-path_B <- "data/FER2013_binary_results.csv"
-DatasetA_1 <- read.csv(path_A_1, header = FALSE) # source dataset 1
-DatasetA_2 <- read.csv(path_A_2, header = FALSE) # source dataset 2
-DatasetB <- read.csv(path_B, header = FALSE) # target dataset
+path_source_1 <- "data/cifar10_binary_results.csv"
+path_source_2 <- "data/quickdraw_binary_results.csv"
+path_target <- "data/fer2013_binary_results.csv"
+DatasetA_1 <- read.csv(path_source_1, header = FALSE)
+DatasetA_2 <- read.csv(path_source_2, header = FALSE)
+DatasetB <- read.csv(path_target, header = FALSE)
 
 datasets_existing <- list(DatasetA_1, DatasetA_2)
 binary_toAllModel <- make_binary_AllModel(datasets_existing)
