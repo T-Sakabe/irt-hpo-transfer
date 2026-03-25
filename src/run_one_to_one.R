@@ -7,8 +7,8 @@ library(MASS)
 # 1. Load data
 #-----------------------------------------
 # Set the paths according to the transfer setting
-path_source <- "data/CIFAR10_binary_results.csv"
-path_target <- "data/FER2013_binary_results.csv"
+path_source <- "data/cifar10_binary_results.csv"
+path_target <- "data/fer2013_binary_results.csv"
 DatasetA <- read.csv(path_source, header = FALSE)
 DatasetB <- read.csv(path_target, header = FALSE)
 
