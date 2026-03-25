@@ -1,4 +1,4 @@
-# irt-hyperparameter-transfer
+# Hyperparameter Transfer Using Item Response Theory
 
 This repository provides the code and data for the paper:
 
